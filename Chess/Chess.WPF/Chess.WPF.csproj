@@ -6,4 +6,70 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\boardRaw.png" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Images\moveIcon.png" />
+    <None Remove="Images\Pieces\blackBishop.png" />
+    <None Remove="Images\Pieces\blackKing.png" />
+    <None Remove="Images\Pieces\blackKnight.png" />
+    <None Remove="Images\Pieces\blackPawn.png" />
+    <None Remove="Images\Pieces\blackQueen.png" />
+    <None Remove="Images\Pieces\blackRook.png" />
+    <None Remove="Images\Pieces\whiteBishop.png" />
+    <None Remove="Images\Pieces\whiteKing.png" />
+    <None Remove="Images\Pieces\whiteKnight.png" />
+    <None Remove="Images\Pieces\whitePawn.png" />
+    <None Remove="Images\Pieces\whiteQueen.png" />
+    <None Remove="Images\Pieces\whiteRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chess\Chess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\boardRaw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\icon.png" />
+    <Resource Include="Images\moveIcon.png" />
+    <Resource Include="Images\Pieces\blackBishop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\blackKing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\blackKnight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\blackPawn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\blackQueen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\blackRook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whiteBishop.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whiteKing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whiteKnight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whitePawn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whiteQueen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Pieces\whiteRook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>

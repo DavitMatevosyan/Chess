@@ -5,9 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\" />
-    <Folder Include="Entity\" />
-    <Folder Include="DataTransferObject\" />
+    <Compile Remove="DataTransferObject\**" />
+    <Compile Remove="Entity\**" />
+    <EmbeddedResource Remove="DataTransferObject\**" />
+    <EmbeddedResource Remove="Entity\**" />
+    <None Remove="DataTransferObject\**" />
+    <None Remove="Entity\**" />
   </ItemGroup>
 
 </Project>

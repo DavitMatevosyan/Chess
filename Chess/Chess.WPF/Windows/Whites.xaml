@@ -1,0 +1,43 @@
+﻿<Window x:Class="Chess.WPF.Windows.Whites"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess.WPF.Windows"
+        mc:Ignorable="d"
+        Title="White Player" Height="430" Width="600" Icon="/Images/icon.png">
+    <StackPanel Background="{DynamicResource BackColor}" Orientation="Horizontal">
+        <Grid  VerticalAlignment="Top" Margin="15 15 15 15" Width="355" Height="355">
+            <Image Name="boardImage" Source="/Images/boardRaw.png" HorizontalAlignment="Left"/>
+            <Grid Name="backBoardgrid" VerticalAlignment="Center" HorizontalAlignment="Center" Width="355" Height="355">
+            </Grid>
+            <!--Board-->
+            <Grid Margin="35,36,34,34" Name="boardGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content="White Player" Foreground="{DynamicResource FontBrightColor}" FontSize="20" Margin="20 0 20 0"/>
+            <Label Name="turnLabel" Content="Your Turn" Foreground="{DynamicResource FontRedAlertColor}" FontWeight="Bold" FontSize="15" Margin="20 60 20 0" HorizontalAlignment="Center"  Visibility="Hidden" />
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,23 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "Chess\Chess.csproj", "{06A22335-EA86-4818-A2EB-0B7EE1FC483E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess", "Chess\Chess.csproj", "{06A22335-EA86-4818-A2EB-0B7EE1FC483E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Models", "Chess.Models\Chess.Models.csproj", "{482C5197-2155-4626-99FF-CC6E2ADE0DA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.UnitTests", "Chess.UnitTests\Chess.UnitTests.csproj", "{0BDC5FD5-EAE9-4157-936B-3C5671C775C2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Player", "Chess.Player\Chess.Player.csproj", "{DAE3D357-AED1-4CEE-9FC3-2527B3D84DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess.Models", "Chess.Models\Chess.Models.csproj", "{482C5197-2155-4626-99FF-CC6E2ADE0DA0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccessLayers", "AccessLayers", "{85FC560F-7C04-4BCB-83BE-B451CCD770E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.ConsoleApp", "Chess.Console\Chess.ConsoleApp.csproj", "{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess.WPF", "Chess.WPF\Chess.WPF.csproj", "{978A9073-1591-485A-9378-AF08E6F6FD66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.WPF", "Chess.WPF\Chess.WPF.csproj", "{978A9073-1591-485A-9378-AF08E6F6FD66}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.API", "Chess.API\Chess.API.csproj", "{1037DE56-53FC-4D02-B4AB-780F4EE70AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chess.API", "Chess.API\Chess.API.csproj", "{1037DE56-53FC-4D02-B4AB-780F4EE70AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +27,6 @@ Global
 		{482C5197-2155-4626-99FF-CC6E2ADE0DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{482C5197-2155-4626-99FF-CC6E2ADE0DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{482C5197-2155-4626-99FF-CC6E2ADE0DA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BDC5FD5-EAE9-4157-936B-3C5671C775C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BDC5FD5-EAE9-4157-936B-3C5671C775C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BDC5FD5-EAE9-4157-936B-3C5671C775C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BDC5FD5-EAE9-4157-936B-3C5671C775C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAE3D357-AED1-4CEE-9FC3-2527B3D84DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAE3D357-AED1-4CEE-9FC3-2527B3D84DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAE3D357-AED1-4CEE-9FC3-2527B3D84DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAE3D357-AED1-4CEE-9FC3-2527B3D84DBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{978A9073-1591-485A-9378-AF08E6F6FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{978A9073-1591-485A-9378-AF08E6F6FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978A9073-1591-485A-9378-AF08E6F6FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,7 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4EE553A2-EA94-43C8-B294-42B4C7FC5D1E} = {85FC560F-7C04-4BCB-83BE-B451CCD770E3}
 		{978A9073-1591-485A-9378-AF08E6F6FD66} = {85FC560F-7C04-4BCB-83BE-B451CCD770E3}
 		{1037DE56-53FC-4D02-B4AB-780F4EE70AC0} = {85FC560F-7C04-4BCB-83BE-B451CCD770E3}
 	EndGlobalSection
