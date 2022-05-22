@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Chess
 {
-    public class Game : IGame
+    public class Game
     {
         private IEngine _engine;
 
